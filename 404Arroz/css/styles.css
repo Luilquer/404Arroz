@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&family=Poppins&display=swap');
+
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f4fec1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #81726A;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #68534D;
+  }
+
+html {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin:0;
+    background-color: #469b7e;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4fec1;
+    padding-top: 10vh;
+    padding-bottom: 15vh;
+}
+
+.container#Segunda{
+    flex-direction: column;
+    padding: 0;
+    padding-top: 1vh;
+    background-color: #469b7e;
+}
+
+.container#Terceira{
+    flex-direction: column;
+    padding: 0;
+    padding-top: 1vh;
+    background-color: #f4fec1;
+}
+
+.container#Terceira{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding-top: 1vh;
+    background-color: #f4fec1;
+}
+
+.container#Quarta{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding-top: 3vh;
+    background-color: #68534D;
+}
+
+.container#divisor{
+    padding: 0;
+    margin: 0;
+    height: 15vh; 
+    overflow: hidden; 
+    background-color:#469b7e;
+}
+
+.container#divisor2{
+    padding: 0;
+    margin: 0;
+    height: 15vh; 
+    overflow: hidden; 
+    background-color:#f4fec1;
+}
+
+div.logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+div.left{
+    width: 30%;
+    height: 100%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: left;
+    padding-right: 2.5%;
+}
+
+div.right{
+    width: 50%;
+    height: 100%;
+    align-items: right;
+    text-align: center;
+    padding-left: 2.5%;
+}
+
+div.botoes{
+    margin: 0;
+    padding: 0;
+    height: 4vh;
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.video-principal{
+    width: 100%;
+    height: 100%;
+}
+
+.arrozito{
+    width: 40%;
+    height: 40%;
+    padding-left: 2vw;
+}
+
+h1.title {
+    font-family: 'Offside';
+    font-size: 7vw;
+    font-weight: 800;
+    color: #68534D;
+    margin: 0;
+}
+
+h1.divTitle{
+    font-family: 'Offside';
+    font-size: 4vw;
+    font-weight: 800;
+    color: #fff;
+    padding: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+h1.divTitle-dark{
+    font-family: 'Offside';
+    font-size: 4vw;
+    font-weight: 800;
+    color: #68534D;
+    padding: 0;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 1.3vw;
+    font-weight: 400;
+    color: #81726A;
+    margin: 0;
+    padding: 0.3vh;
+}
+
+p.description#Video{
+    font-family: 'Poppins';
+    font-size: 0.9vw;
+    font-weight: 200;
+    color: #68534D;
+}
+
+img.logo{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+button.btn{
+    width: 40%;
+    height: 6vh;
+    font-family: 'Poppins';
+    font-size: 1.2vw;
+    background-color: #469b7e;
+    color: #f1f1f1;
+    border: none;
+    border-radius: 6px;
+    margin-top: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    transition: 250ms;
+    -ms-transition: 250ms;
+    -webkit-transition: 250ms;
+}
+
+button.btn#secundario{
+    background-color: #81726A;
+}
+
+button.btn#links{   
+    margin: 0;
+    background-color: #81726A;
+}
+
+button.btn:hover{
+    cursor: pointer;
+    width: 50%;
+    height: 7vh;
+    font-size: 1.7vw;
+    background-color: #357560;
+    color: #fff;
+}
+
+button.btn#secundario:hover{
+    background-color: #68534D;
+}
+
+button.btn#links:hover{
+    background-color: #68534D;
+}
+
+p.texto-padrao{
+    font-size: 1.2vw;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    color: #f1f1f1;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+p.texto-padrao > strong{
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+p.texto-padrao-dark{
+    font-size: 1.2vw;
+    text-align: center;
+    text-justify: distribute-all-lines;
+    color: #81726A;
+    padding-bottom: 3vh;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+}
+
+p.texto-padrao-dark > strong{
+    font-size: 1.5vw;
+    font-weight: 800;
+}
+
+a.btn-a{
+    height: auto;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.coluna{
+    height: 100%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 6vh;
+}
+
+div.linhas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6vh;
+}
+
+div.linhas#prearrozito{
+    padding: 0;
+}
+
+div.linhas#titulo{
+    width: 90%;
+    justify-content: left;
+    align-items: center;
+}
+
+div.linhas#titulo-dark{
+    width: 90%;
+    justify-content: right;
+    align-items: center;
+}
+
+div.coluna#arrozito{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+img.arrozitoDivLogo{
+    padding-left: 3vw;
+    padding-right: 3vw;
+    width: 10vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+img.arrozitoTriste{
+    padding: 1%;
+    width: 20vw;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+img.arrozitoTomandoCafe{
+    padding: 1%;
+    width: 15vw;
+    height: 100%;
+    object-fit: cover;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.idealizadores{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+p.smaller{
+    font-size: 0.8vw;
+}
+
+img.foto-membro{
+    width: 8vw;
+    height: 8vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    object-fit: cover;
+    border-radius: 50%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+
+div.gap{
+    padding-bottom: 6vh;
+}
+
+div.container#Quarta > div.colunas > div.linhas > div.pessoa > p.texto-padrao{
+    padding: 0;
+    margin: 0;
+}
+
+img.foto-membro.right{
+    padding-left: 1vw;
+    margin: 0;
+}
+
+img.foto-membro.left{
+    padding-right: 1vw;
+    margin: 0;
+}
+
+p.texto-padrao.max-width{
+    margin: 0;
+    padding: 0;
+    width: 30%;
+    max-width: 50%;
+}
+
+div.pessoa{
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    div.container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: #f4fec1;
+    }
+    
+    div.container#Primeira{
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    div.container#Segunda{
+        padding: 0;
+        flex-direction: column;
+        background-color: #469b7e;
+    }
+
+    div.container#Terceira{
+        padding: 0;
+        flex-direction: column;
+        background-color: #f4fec1;
+    }
+
+    div.container#Quarta{
+        padding: 0;
+        flex-direction: column;
+    }
+
+    div.container#divisor{
+        height: auto; 
+        overflow: hidden; 
+        background-color:#469b7e;
+    }
+
+    div.coluna#conteudo > .linhas{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    p.texto-padrao{
+        font-size: 2.4vw;
+    }
+
+    p.texto-padrao > strong{
+        font-size: 3vw;
+    }
+
+    p.texto-padrao-dark{
+        font-size: 2.4vw;
+    }
+
+    p.texto-padrao-dark > strong{
+        font-size: 3vw;
+    }
+
+    img.arrozitoTriste{
+        width: 0;
+        height: 0;
+    }
+
+    div.left{
+        height: 100%;
+        width: 90%;
+        flex: 1;
+        padding-top: 10vh;
+        padding-bottom: 3vh;
+    }
+
+    div.right{
+        height: 100%;
+        width: 90%;
+        flex: 2;
+        margin-bottom: 0;
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+
+    div.logo{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    div.botoes{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1.title{
+        font-size: 25vw;
+    }
+
+    p{
+        font-size: 3vw;
+    }
+
+    p.description{
+        text-align: center;
+        text-justify: inter-word;
+    }
+
+    p.description#Video{
+        font-size: 2.5vw;
+    }
+
+    button.btn{
+        width: 70%;
+        height: 6vh;
+        font-size: 4vw;
+        padding: 0;
+    }
+
+    button.btn:hover{
+        width: 90%;
+        height: 8vh;
+        font-size: 6vw;
+    }
+
+    h1.divTitle{
+        font-size: 8vw;
+    }
+
+    h1.divTitle-dark{
+        font-size: 8vw;
+    }
+
+    h1.divTitle#Idealizadores{
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+    div.linhas#conteudo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.arrozitoDivLogo{
+        width: 30vw;
+    }
+
+    img.foto-membro{
+        width: 15vw;
+        height: 15vw;
+    }
+}
+
+hr {
+    border: none;
+    padding: 0;
+    margin: 0;
+    border-top: 0.7vh dashed #68534D;
+    background-color: #f4fec1;
+    width:100%;
+    overflow: visible;
+    padding-bottom: 0.5vh;
+}
+
+hr.inverso{
+    border-top: 0;
+    padding-top: 0.5vh;
+    border-bottom: 0.7vh dashed #68534D;
+}
